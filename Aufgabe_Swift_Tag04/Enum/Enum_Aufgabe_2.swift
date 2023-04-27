@@ -1,7 +1,6 @@
 
 import Foundation
-func aufgabe2(){
-    
+
     /**
      
      Erstelle ein ENUM  namens `ZodiacSign`, das jedes Sternzeichen enthält. Implementiere eine Funktion `element()` in diesem Enum, die für jedes Sternzeichen
@@ -32,23 +31,25 @@ func aufgabe2(){
      
      **/
     
-    
-    
     // TODO: Here Code für Enum_Aufgabe_2
     
-        enum ZodiacSign{
-            case Widder, Löwe, Schütze
-            case Krebs, Skorpion, Fische
-            case Wassermann, Zwillinge, Waage
-            case Steinbock, Stier, Jungfrau
-            func element() -> String{
-                
+    enum ZodiacSign: String {
+        case Widder, Löwe, Schütze, Krebs, Skorpion, Fische, Wassermann, Zwillinge, Waage, Steinbock, Stier, Jungfrau
+    
+            func element() -> String {
+                var element: String
+                switch self {
+                case .Widder, .Löwe, .Schütze: element = "Feuer"
+                case .Krebs, .Skorpion, .Fische: element = "Wasser"
+                case .Wassermann, .Zwillinge, .Waage: element = "Luft"
+                case .Steinbock, .Stier, .Jungfrau: element = "Erde"
+                default: element = "nix von allen"
+                }
+                return element
             }
         }
-    
-    //switch ZodiacSign{
-    //    case
-    }
-    //}
-    
-
+        
+        func enumAufgabe2() {
+            var test = ZodiacSign.Schütze
+            print(test.element())
+        }

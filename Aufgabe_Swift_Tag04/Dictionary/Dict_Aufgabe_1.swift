@@ -24,7 +24,20 @@ import Foundation
  Tipp: Dictionary ist vom Typ `[String: Any]`
 */
 
-func createCharacter() {
+func createCharacter() -> [String : Any] {
     
     // TODO: Here Code für Dict_Aufgabe_1
+    let steckbrief : [String : Any] = [
+        "firstName" : "Bernadette",
+        "lastName" : "Werneke",
+        "eyeColor" : "blaugrau",
+        "zodiacSign" : "Schütze",
+        "age" : 58]
+    
+    print(steckbrief)
+    return steckbrief
 }
+
+
+
+

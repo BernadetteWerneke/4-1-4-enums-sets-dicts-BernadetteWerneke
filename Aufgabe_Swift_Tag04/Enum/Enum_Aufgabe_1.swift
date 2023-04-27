@@ -1,6 +1,6 @@
 
 import Foundation
-func aufgabe1(){
+
     /**
      
      Aufgabe 1:
@@ -25,9 +25,10 @@ func aufgabe1(){
     // TODO: Here Code für Enum_Aufgabe_1
     enum EyeColor: String
     {
-        case brown, blue, green, black, bluegrey, bluegreen
+        case brown = "Test rawValue", blue, green, black, bluegrey, bluegreen
     }
     
+func enumAufgabe1(){
     var myColor : EyeColor = EyeColor.bluegrey
     print(myColor)
     
@@ -42,4 +43,6 @@ func aufgabe1(){
     case .bluegrey : print("Color is bluegrey")
     default: print("its a different color")
     }
+    print(EyeColor.brown)
+    print(EyeColor.brown.rawValue)
 }

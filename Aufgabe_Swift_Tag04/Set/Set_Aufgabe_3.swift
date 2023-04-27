@@ -14,8 +14,8 @@ Tipp: Datentyp Set bietet die Funktion `filter()`
  
  **/
 
-func setOfContainingSubString (_ setString: Set<String>,_ subString:String)->Set<String> {
+/*func setOfContainingSubString (_ setString: Set<String>,_ subString:String)->Set<String> {
     // TODO: Here Code für Set_Aufgabe_3
    
-}
+}*/
 

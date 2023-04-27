@@ -4,36 +4,39 @@ import Foundation
 
 
 // SET Beispiel Funktionen Aufruf
-callAllSetExamples()
-callAllDictExamples()
-callEnumExample()
+//callAllSetExamples()
+//callAllDictExamples()
+//callEnumExample()
 
 /** ====*====*====*====*====*====*====*====*====*====* AUFGABEN ZU ENUM *====*====*====*====*====*====*====*====*====*====*==== **/
 
 //
-//print ("ENUM: Aufgabe 1\n")
+print ("ENUM: Aufgabe 1\n")
 //// TODO: Erzeuge ein Enum und print die Augenfarbe als String
-//aufgabe1()
+enumAufgabe1()
 //
-//print ("ENUM: Aufgabe 2\n")
+print("\n \n")
+print ("ENUM: Aufgabe 2\n")
 //// TODO: Erzeuge ein Enum und print das Element zu dem jeweiligen Sternzeichen aus
-//aufgabe2()
+enumAufgabe2()
 //
 
 /** ====*====*====*====*====*====*====*====*====*====* AUFGABEN ZU DICTIONARY *====*====*====*====*====*====*====*====*====*====*==== **/
 
-//print ("============ DICT AUFGABEN ====================\n")
-//print ("DICT: Aufgabe 1\n")
+print("\n \n")
+print ("============ DICT AUFGABEN ====================\n")
+print ("DICT: Aufgabe 1\n")
 //// TODO: Aufgabe 1 aufrufen
+createCharacter()
 //
-//print ("\n")
+print ("\n")
 //
-//print ("DICT: Aufgabe2\n")
+print ("DICT: Aufgabe2\n")
 //// TODO: Aufgabe 3 aufrufen in einem print statement
+addNewKeyValuePairs()
+print ("\n")
 //
-//print ("\n")
-//
-//print ("DICT: Aufgabe3\n")
+print ("DICT: Aufgabe3\n")
 //// TODO: Erzeuge die benötigten Variablen
 //// TODO: Aufgabe 4 mit den Variablen als Parameter aufrufen in deinem print statement
 //
@@ -55,7 +58,7 @@ createSets()
 let stringSet = Set(["Sonnencreme", "Autoreifen", "Sommersprosse", "Hund", "Katze", "Maus",  "Sonnenbrille", "Turnhalle", "Sommerreifen", "Autohaus", "Sonnendach", "Kind"])
 let subString = "Sonne"
 //// TODO: Aufgabe 3 aufrufen mit strintSet und subString als Parameter in einem print statement
-setOfContainingSubString (stringSet, subString)
+//setOfContainingSubString (stringSet, subString)
 //
 //print ("\n")
 //
