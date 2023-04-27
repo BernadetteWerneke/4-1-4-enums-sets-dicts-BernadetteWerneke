@@ -16,9 +16,5 @@ import Foundation
 
 
 /*
- 
- 
-  <Hier beschreiben>
- 
- 
+ Das Set hat immer eine zufällige Reihenfolge, also wird die erste Zahl gelöscht, die zufällig an erster Stelle des Sets steht.
  */

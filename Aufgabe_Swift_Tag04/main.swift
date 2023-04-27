@@ -13,9 +13,11 @@ callEnumExample()
 //
 //print ("ENUM: Aufgabe 1\n")
 //// TODO: Erzeuge ein Enum und print die Augenfarbe als String
+//aufgabe1()
 //
 //print ("ENUM: Aufgabe 2\n")
 //// TODO: Erzeuge ein Enum und print das Element zu dem jeweiligen Sternzeichen aus
+//aufgabe2()
 //
 
 /** ====*====*====*====*====*====*====*====*====*====* AUFGABEN ZU DICTIONARY *====*====*====*====*====*====*====*====*====*====*==== **/
@@ -45,13 +47,15 @@ callEnumExample()
 //print ("============ SET AUFGABEN ====================\n")
 //print ("SET: Aufgabe 1\n")
 //// TODO: Aufgabe 1 aufrufen
+createSets()
 //
 //print ("\n")
 //
 //print ("SET: Aufgabe3\n")
-//let stringSet = Set(["Sonnencreme", "Autoreifen", "Sommersprosse", "Hund", "Katze", "Maus",  "Sonnenbrille", "Turnhalle", "Sommerreifen", "Autohaus", "Sonnendach", "Kind"])
-//let subString = "Sonne"
+let stringSet = Set(["Sonnencreme", "Autoreifen", "Sommersprosse", "Hund", "Katze", "Maus",  "Sonnenbrille", "Turnhalle", "Sommerreifen", "Autohaus", "Sonnendach", "Kind"])
+let subString = "Sonne"
 //// TODO: Aufgabe 3 aufrufen mit strintSet und subString als Parameter in einem print statement
+setOfContainingSubString (stringSet, subString)
 //
 //print ("\n")
 //

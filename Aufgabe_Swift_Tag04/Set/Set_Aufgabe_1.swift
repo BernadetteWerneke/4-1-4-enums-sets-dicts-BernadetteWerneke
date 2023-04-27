@@ -21,6 +21,19 @@ import Foundation
 
 */
 
-func createSets () {
-    // TODO: Here Code für Set_Aufgabe_1
-}
+    func createSets () {
+        // TODO: Here Code für Set_Aufgabe_1
+        var setHaus : Set<String> = ["Haus", "Maus", "Wand", "Bild", "Stuhl"]
+        var setGeradeZahlen = Set <Int>()
+        var setQuadratZahlen : Set<Int> = [1,4,9,16,25]
+        
+        
+        for i in stride(from: 0, to: 20, by: 2) {
+            setGeradeZahlen.insert(i)
+        }
+        
+        print(setGeradeZahlen)
+        var sortiert = setGeradeZahlen.sorted()
+        print(sortiert)
+    }
+
